@@ -3,6 +3,8 @@ import mongoose from "mongoose";
 import cors from "cors";
 import Post from "./models/Post.js";
 import dotenv from "dotenv";
+import helmet from "helmet";
+
 dotenv.config();
 const app = express();
 app.use(cors());
